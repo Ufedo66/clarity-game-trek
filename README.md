@@ -12,8 +12,15 @@ GameTrek is an on-chain adventure game where players can:
 ## Contracts
 - `character.clar`: Handles character creation and stats
 - `items.clar`: Manages game items and equipment as NFTs
-- `battle.clar`: Contains battle mechanics and monster encounters
+- `battle.clar`: Contains battle mechanics and monster encounters with a robust damage calculation system
 - `marketplace.clar`: Enables player-to-player trading
+
+## Battle System
+The battle system now includes:
+- Dynamic damage calculation based on attack and defense stats
+- Experience rewards after successful battles
+- Health tracking during combat
+- Battle result reporting with damage dealt/taken
 
 ## Getting Started
 [Instructions for setting up and running the game...]
